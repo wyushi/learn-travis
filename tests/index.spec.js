@@ -8,9 +8,4 @@ describe('test', () => {
     expect(true).toExist();
     done();
   });
-
-  it('let\'s me this fail', () => {
-    expect(false).toExist();
-    done();
-  });
 });
