@@ -4,7 +4,8 @@ var expect = require('expect');
 
 describe('test', () => {
 
-  it('should pass', () => {
+  it('should pass', (done) => {
     expect(true).toExist();
+    done();
   });
 });
