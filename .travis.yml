@@ -3,3 +3,5 @@ node_js:
   - "5.1"
 env:
   - VAR_FOO="foo_bar"
+notifications:
+  email: false
